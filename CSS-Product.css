@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    font-family: 'Fira Sans', 'Halant' 'Quattrocento Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+h1, h2, h3 {
+    font-family: 'Fira Sans', 'Halant', 'Quattrocento Sans', 'Verdana', 'Geneva', 'Sans-serif';
+    color: black;
+}
+
+
+.display {
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 40px;
+    font-weight: 30;
+    width: 100%;
+    height: 100%;
+    text-align: inline-block;
+
+}
+
+nav div a :hover { 
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 20px;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 4px;
+    display: inline block;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.fa-check
+{
+font-size: 150px;
+}
+.div class="top"
