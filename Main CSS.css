@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    font-family: 'Fira Sans', 'Halant' 'Quattrocento Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+h1, h2, h3 {
+    font-family: 'Fira Sans', 'Halant', 'Quattrocento Sans', 'Verdana', 'Geneva', 'Sans-serif';
+    color: black;
+}
+
+
+.display {
+    text-align: center;
