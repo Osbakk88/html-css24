@@ -48,20 +48,23 @@ nav a:hover{
 
 }
 
-body {
-    background-color: white;
-    font-family: 'Fira Sans', 'Halant' 'Quattrocento Sans', 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+nav .home-link{
+    margin-right: auto;
 }
 
-h1, h2, h3 {
-    font-family: 'Fira Sans', 'Halant', 'Quattrocento Sans', 'Verdana', 'Geneva', 'Sans-serif';
-    color: black;
+nav svg{
+    fill: var(--text-color)
 }
 
-footer {
-  background:#2B3549 ;
-  color: white;
+#sidebar-active{
+    display: none;
+
 }
 
+.open-sidebar-button, .close-sidebar-button {
+    padding: 0 20px;
+    display: none;
+}
+@media(max-with:420px){
 
-
+}
