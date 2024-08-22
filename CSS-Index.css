@@ -22,7 +22,7 @@ html {
 
 nav {
     height: 60px;
-    background-color: var(--01--);
+    background-color: var(--color-1);
     display: flex;
     justify-content: flex-end;
     align-items: center;   
