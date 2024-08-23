@@ -45,7 +45,42 @@ nav ul {
     background-color: white;
 }
 
-.fa-check
-{
+.fa-check {
 font-size: 150px;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.img-womanpink {
+    width: 420px;
+    height: 544px;
+}
+
+.img-urbanwoman {
+    width: 420px;
+    height: 554px;
+}
+
+.img-skiingwom {
+    width: 420px;
+    height: 554px;
+}
+
+.img-woman {
+    width: 420px;
+    height: 554px;
+}
+
+.img-womanerun {
+    height: 420px;
+    width: 554px;
+}
+
+.img-womanwood {
+    height: 420px;
+    width: 544px;
 }

@@ -67,18 +67,19 @@ nav svg{
 
 @media(max-with:420px){
     .links-container{
-        display: none;
+       
         flex-direction: column;
         align-items: flex-start;
 
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         z-index: 10;
         width: 300px;
 
         background-color: var(--01--);
         box-shadow: -5px 0 -5px rgba(0, 0, 0, 0,25%);
+        transition: 0.75 second ease ease-out;
     }
 
     nav a{
@@ -96,6 +97,35 @@ nav svg{
     }
 
     #sidebar-active:checked ~ .links-container{
-        display: flex;
+        right: 0;
     }
+    
+    #sidebar-active: :checked ~ #overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+}
+
+.wrapper {
+    margin: auto;
+    width: 1000px;
+}
+
+.img-rainystart {
+    width: 552px;
+    height: 687px;
+}
+
+.img-mens {
+    width: 707px;
+    height: 765px;
+}
+
+.img-womans {
+    width: 707px;
+    height: 765px;
 }
