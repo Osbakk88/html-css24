@@ -45,11 +45,11 @@ nav a {
     color: var(--text-color);   
 }
 
-nav a:hover{
+nav a:hover {
     background-color: var(--accent-color);
 }
 
-nav .home-link{
+nav .home-link {
     margin-right: auto;
 }
 
@@ -57,7 +57,7 @@ nav svg{
     fill: var(--text-color)
 }
 
-#sidebar-active{
+#sidebar-active {
     display: none;
 }
 
@@ -65,8 +65,8 @@ nav svg{
     display: none;
 }
 
-@media(max-with:420px){
-    .links-container{
+@media(max-with:420px) {
+    .links-container {
        
         flex-direction: column;
         align-items: flex-start;
@@ -82,7 +82,8 @@ nav svg{
         transition: 0.75 second ease ease-out;
     }
 
-    nav a{
+
+    nav a {
         box-sizing: border-box;
         height: auto;
         width: 100%;
@@ -90,13 +91,14 @@ nav svg{
         justify-content: flex-start;
         
     }
+
     .open-sidebar-button, .close-sidebar-button {
         padding: 20px;
         display: block;
 
     }
 
-    #sidebar-active:checked ~ .links-container{
+    #sidebar-active:checked ~ .links-container {
         right: 0;
     }
     
