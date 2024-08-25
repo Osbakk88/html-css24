@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+footer {
+  background-color: var(--colour-primary);
+  color: var(--colour-text);
+  padding: 2rem 0;
+
+  div {
+    max-width: var(--max-width-header);
+    margin: auto 0;
+  }
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
