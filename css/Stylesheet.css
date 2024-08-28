@@ -180,3 +180,36 @@ nav ul {
 font-size: 150px;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 680px;
+    
+}
+
+.entryerea {
+    position: relative;
+    height: 80px;
+    line-height: 90px;
+}
+
+.input {
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 2. 2em;
+    padding:  0 30px;
+    line-height: 80px;
+    border-radius: 10px;
+    border: 2 px solid #000000;
+    transition: 0.1 second ease;
+    z-index: 1111;
+
+
+
+}
