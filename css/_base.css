@@ -20,6 +20,13 @@ footer {
   background-color: var(--colour-primary);
   color: var(--colour-text);
   padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  font-size: medium;
+  height: 100px;
+  {
+    
+  }
 
   div {
     max-width: var(--max-width-header);
@@ -31,3 +38,4 @@ footer {
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
